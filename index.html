@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Camellia</title>
+<style>
+
+    html{background:#ebebec; height:100%;}
+    body{margin:0 auto; width:100%; font-family: Arial, Helvetica, sans-serif; font-size:14px; box-sizing: border-box;}
+table{border:none;}
+.checkout:hover {
+	background: #0077c0 !important;
+    
+	transition: all ease-in-out 0.5s;
+}
+.navbar ul li a:hover {
+	color: #0077c0 !important;
+}
+.footer-text a:hover {
+	color: #0077c0 !important;
+}
+table.content-table tr td p{color:#506f83; font-size:14px; padding:0px;}
+@media all and (max-width:650px){
+
+    table, tr, td{display:table; overflow: hidden; width: 100% !important;}
+    .product-item tr td table {
+	width: 100% !important;
+	float: unset !important;
+	text-align: center !important;
+}
+.product-item tr td table tbody {
+	width: 100% !important;
+	max-width: 100% !important;
+	display: block;
+}
+table, tr, td {
+	display: table;
+	overflow: hidden;
+	width: 100% !important;
+	text-align: center !important;
+}
+.st {
+	padding-right: 40px !important;
+}
+.checkout {
+	display: block !important;
+}
+.footer-heading ul {
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+}
+
+@media all and (max-width:480px){
+    .st {
+	padding-right: 18px !important;
+}
+.navbar li a {
+	font-size: 14px !important;
+}
+
+table, tr, td{display:block; overflow: hidden; width: 100% !important;}
+.footer-heading h6 {
+	text-align: left !important;
+}
+.footer-heading ul {
+	justify-content: start;
+}
+.header-table {
+	display: flex!important;
+	flex-wrap: wrap!important;
+	justify-content: center!important;
+}
+.navbar {
+	display: flex!important;
+	flex-wrap: wrap!important;
+	justify-content: center!important;
+}
+.left {
+		display: flex!important;
+	flex-wrap: wrap!important;
+	justify-content: center!important;
+
+}
+}
+/***
+@media all and (max-width:575px){
+      .inner-table {padding:0px 0px !important;}
+
+      table, tr, td{display:block; overflow: hidden; width: 100% !important;}
+}
+
+****/
+</style>
+</head>
+
+<body>
+<table bg color="#ebebec" width="100%"  border-collapse: collapse; class="main-table">
+    <tr>
+        <td>
+            <table class="inner-table" width="650px" style="background-image: url(bg.png); margin:0 auto; padding: 0 25px; background-repeat: no-repeat;
+            background-color: #fff; box-shadow: 0 0 5px 5px #88888829;">
+                <tr>
+                    <td>
+                    <table width="100%"  border-collapse: collapse; class="header-table">
+                        <tr class="gap20" height="20">
+                            <td></td>
+                        </tr>
+                        <tr style="text-align: center";>
+                            <td>
+                                <a class="logo" href="#">  
+                                <img style="width: 100%;  max-width: 250px; height: auto; object-fit: cover; " src="./images/logo.png" alt="logo">
+                            </a>
+                            </td>
+                        </tr>
+
+                </table>
+                <table width="100%"  border-collapse: collapse; class="navbar">
+                        <tr class="gap10" height="10">
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul style="padding-left: 0px; border-bottom: 2px solid #ccc; padding-bottom: 20px; text-align: center;";>
+                                        <li class="st" style="display: inline-block; list-style: none; padding-right: 85px;"> <a style="color: #57392e;
+                                        font-size: 16px; font-weight: 500; text-decoration: none;" href="#"> Makeup</a>  </li>
+                                        <li class="st" style="display: inline-block; list-style: none;padding-right: 85px;"> <a style="color: #57392e;
+                                            font-size: 16px; font-weight: 500; text-decoration: none;" href="#"> Fragrance</a>  </li>
+                                        <li class="st" style="display: inline-block; list-style: none; padding-right: 85px; "> <a style="color: #57392e;
+                                            font-size: 16px; font-weight: 500; text-decoration: none;" href="#"> Solution</a>  </li>
+                                        <li class="st-last" style="display: inline-block; list-style: none; padding-right: 85px; padding-right:0px; "> <a style="color: #57392e;
+                                            font-size: 16px; font-weight: 500; text-decoration: none;" href="#"> sales</a>  </li>
+                                    </ul>
+                                </td>
+                            </tr> 
+                </table>
+
+                <table style="padding:30px 0px;" width="100%; text-align:center; "  border-collapse: collapse; class="product">  
+                  <tr>
+                      <td>
+                        <table style="width:50%; float: left;"  border-collapse: collapse; class="left"> 
+                            <tr> 
+                                <td> <img src="./images/product-image.png" alt="product-image"> </td>
+                            </tr>
+                            
+                             </table> 
+                            <table style="width:50%; float: right; text-align: center;"  border-collapse: collapse; class="right">
+                                <tr> 
+                                    <td> 
+                                    <h2 style="font-size: 24px;  color: #4d3102;  line-height: 32px; letter-spacing: 2px; text-transform: capitalize;">
+                                         your shipping bag waiting for you </h2>    
+                                    <p style="font-size: 14px;  line-height: 26px;  color: #3e341b; padding-bottom: 10px;  letter-spacing: 1px;"> 
+                                    you have begun to make out the order
+                                        in our online store, but havem't finished it.
+                                         if you issue him within 24 hours that receive a <strong> discount of 10%!</strong> </p>
+
+                                         <ul style="padding-left: 0px; padding-bottom: 20px;" class="clander">
+                                            <li style="display: inline-block;
+                                            padding: 0px 10px;
+                                            font-size: 42px;
+                                            line-height: 18px;
+                                            font-weight: 700; ">23 <br> <span style="font-size: 14px;
+                                            font-weight: 400;">HOURS </span> </li>
+                                            <li style="display: inline-block;
+                                            padding: 0px 10px;
+                                            font-size: 42px;
+                                            line-height: 18px;
+                                            font-weight: 700; ">58 <br> <span style="font-size: 14px;
+                                            font-weight: 400;">MINUTE  </span> </li>
+                                            <li style="display: inline-block;
+                                            padding: 0px 10px;
+                                            font-size: 42px;
+                                            line-height: 18px;
+                                            font-weight: 700; ">37 <br> <span style="font-size: 14px;
+                                            font-weight: 400;">SECOND  </span> </li>
+                                         </ul>
+                                         <a class="checkout" style="font-size: 14px;
+                                         font-weight: 600;
+                                         color: #fff; background: #343331;  padding: 12px 30px; text-decoration: none;" href="#"> checkout now </a>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                      </td>
+                  </tr>
+                  <td style="text-align:center;"><p style="font-size: 16px;
+                    text-transform: uppercase;
+                    padding-top: 30px;
+                    color: #04062d;"> view the item the left behind:</p></td>
+                     
+                   
+            </table>
+
+            
+            <table style="padding:0px 0px 30px;" width="100%; "  border-collapse: collapse; class="product-item">  
+                <tr>
+                    <td>
+                      <table style="width:33%; float: left;"  border-collapse: collapse; class="product1"> 
+                          <tr> 
+                              <td> 
+                                  <h6 style="font-size: 14px;
+                                  margin: 0px;
+                                  padding-bottom: 5px;
+                                  color: #2c312a;"> Belleville</h6>
+                                <img src="./images/product-img1.png" alt="product-image"> 
+                                <h5 style="color: #5b6a67;
+                                font-size: 14px;
+                                margin: 0px;
+                                padding-top: 5px; text-transform: capitalize;">  wonder power </h5>
+                                <p style="font-size: 16px;
+                                font-weight: 600;
+                                color: #ab8584;
+                                margin: 0px;
+                                padding-bottom: 20px;"> $26.00</p>
+
+                                <a class="checkout" style="font-size: 14px;
+                                       font-weight: 600;
+                                       color: #fff; background: #343331;  padding: 12px 30px; text-decoration: none;" href="#"> checkout now </a>
+                            </td>
+                          </tr>
+                          
+                           </table> 
+                          <table style="width:33%; float: left;"  border-collapse: collapse; class="right">
+                              <tr> 
+                                  <td> 
+                                    <h6 style="font-size: 14px;
+                                  margin: 0px;
+                                  padding-bottom: 5px;
+                                  color: #2c312a;"> Belleville</h6>
+                                <img src="./images/product-img2.png" alt="product-image"> 
+                                <h5 style="color: #5b6a67;
+                                font-size: 14px;
+                                margin: 0px;
+                                padding-top: 5px; text-transform: capitalize;">  wonder power </h5>
+                                <p style="font-size: 16px;
+                                font-weight: 600;
+                                color: #ab8584;
+                                margin: 0px;
+                                padding-bottom: 20px;"> $26.00</p>
+                                 
+                                       <a class="checkout" style="font-size: 14px;
+                                       font-weight: 600;
+                                       color: #fff; background: #343331;  padding: 12px 30px; text-decoration: none;" href="#"> checkout now </a>
+                                  </td>
+                              </tr>
+                              
+                          </table>
+
+                          <table style="width:33%; float: left;"  border-collapse: collapse; class="right">
+                            <tr> 
+                                <td> 
+                                
+                                    <h6 style="font-size: 14px;
+                                  margin: 0px;
+                                  padding-bottom: 5px;
+                                  color: #2c312a;"> Belleville</h6>
+                                <img src="./images/product-img3.png" alt="product-image"> 
+                                <h5 style="color: #5b6a67;
+                                font-size: 14px;
+                                margin: 0px;
+                                padding-top: 5px; text-transform: capitalize;">  wonder power </h5>
+                                <p style="font-size: 16px;
+                                font-weight: 600;
+                                color: #ab8584;
+                                margin: 0px;
+                                padding-bottom: 20px;"> $26.00</p>
+                                 
+                                       <a class="checkout" style="font-size: 14px;
+                                       font-weight: 600;
+                                       color: #fff; background: #343331;  padding: 12px 30px; text-decoration: none;" href="#"> checkout now </a>
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>    
+                <tr style="text-align: center;" class="border-line">
+                    <td style="padding-top: 30px;">
+                          <h6 style="border-top: 2px solid #ccc; padding-top: 30px; font-size: 16px;
+                          font-weight: 500; margin-bottom: 0px; text-transform: uppercase;"> NEED HELP ? </h6>
+                        <p style="color: #2b3147;
+                        font-size: 16px;
+                        font-weight: 400;">                      
+                         just call and operators will make everything fot you.</p>
+                        <a style="color: #2b3147;
+                        font-size: 22px;
+                        font-weight: 600;
+                        text-decoration: none;" href="#">  +91 234 000 000 </a></td>
+                </tr> 
+          </table>
+
+
+
+  
+          <table style="padding:0px 0px 30px; background-color:#333333; padding:20px;" width="100%; background-color:#333333; "  border-collapse: collapse; class="footer">  
+            <tr>
+                <td>
+                  <table style="width:33%; float: left;"  border-collapse: collapse; class="footer-heading"> 
+                      <tr> 
+                          <td> 
+                              <h6 style="color: #fff;
+                              font-size: 18px;
+                              margin: 0;
+                              text-transform: capitalize;
+                              font-weight: 400;"> menu </h6>
+                               <ul style="padding-left: 0px;" class="footer-text">
+                                   <li style="list-style: none; padding-bottom: 5px;"> <a style="color: #74717c;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    text-decoration: none;" href="#"> Makeup </a> </li>
+                                   <li style="list-style:none; padding-bottom: 5px;"> <a style="color: #74717c;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    text-decoration: none;" href="#"> Fragrance  </a> </li>
+                                   <li style="list-style:none; padding-bottom: 5px;"> <a style="color: #74717c;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    text-decoration: none;" href="#">   Solution</a> </li>
+                                   <li style="list-style: none;padding-bottom: 5px; "> <a style="color: #74717c;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    text-decoration: none;" href="#">    sales </a> </li>
+                               </ul>
+                           
+          
+                        </td>
+                      </tr>
+                      
+                       </table> 
+                      <table style="width:33%; float: left;"  border-collapse: collapse; class="footer-heading">
+                          <tr> 
+                              <td> 
+                                 
+                        
+                             
+                              
+                                <h6 style="color: #fff;
+                                font-size: 18px;
+                                margin: 0;
+                                text-transform: capitalize;
+                                font-weight: 400;"> service </h6>
+                                 <ul style="padding-left: 0px;" class="footer-text">
+                                     <li style="list-style: none; padding-bottom: 5px;"> <a style="color: #74717c;
+                                      font-size: 16px;
+                                      font-weight: 500;
+                                      text-decoration: none;" href="#">         privacy policy </a> </li>
+                                     <li style="list-style:none; padding-bottom: 5px;"> <a style="color: #74717c;
+                                      font-size: 16px;
+                                      font-weight: 500;
+                                      text-decoration: none;" href="#">    Terms and Condition </a> </li>
+                                     <li style="list-style:none; padding-bottom: 5px;"> <a style="color: #74717c;
+                                      font-size: 16px;
+                                      font-weight: 500;
+                                      text-decoration: none;" href="#">    payment </a> </li>
+                                 </ul>
+                              </td>
+                          </tr>
+                          
+                      </table>
+
+                      <table style="width:33%; float: left;"  border-collapse: collapse; class="footer-heading">
+                        <tr> 
+                            <td> 
+                            
+                                <h6 style="color: #fff;
+                                font-size: 18px;
+                                margin: 0;
+                                text-transform: capitalize;
+                                font-weight: 400;"> get in touch </h6>
+                                 <ul style="padding-left: 0px;" class="footer-text">
+                                     <li style="list-style: none; padding-bottom: 5px;"> <a style="color: #74717c;
+                                      font-size: 16px;
+                                      font-weight: 500;
+                                      text-decoration: none;" href="#">     +14 234 000 000  </a> </li>
+                                  
+                            
+                                     <li style="list-style:none; padding-bottom: 5px;"> <a style="color: #74717c;
+                                      font-size: 16px;
+                                      font-weight: 500;
+                                      text-decoration: none;" href="#">           contact@shop.com</a> </li>
+
+                                      
+                                     
+                                 </ul>
+
+                                 <ul style="padding-left: 0px;  text-align: start;";>
+                                    <li  style="display: inline-block; list-style: none;padding:0px 0px;">
+                                    <img src="./images/twitter.png" alt="twitter"> 
+                                    </li>
+                                    <li  style="display: inline-block; list-style: none;padding:0px 0px;">
+                                    <img src="./images/facebook.png" alt="facebook"> 
+                                    </li>
+                                    <li  style="display: inline-block; list-style: none;padding:0px 0px;">
+                                    <img src="./images/youtube.png" alt="youtube"> 
+                                    </li>
+                                    <li  style="display: inline-block; list-style: none;padding:0px 0px;">
+                                    <img src="./images/wk.png" alt="wk"> 
+                                    </li>
+
+
+
+                                    
+
+                            
+                                </ul>
+                        </tr>
+                        
+                    </table>
+                </td>
+            </tr>    
+            <tr style="text-align: center;" class="border-line">
+                <td style="padding-top: 0px;">
+                      <p style="border-top: 1px solid #a78a7c; padding-top: 30px; font-size: 12px; color: #74717c;
+                      font-weight: 500; margin-bottom: 0px; text-align: left; line-height: 26px;">    you are receiving this email because you have visited our site or asked us about regular newsletter<br>
+                         Unsubscribe  |  Notification Preferences
+</p> 
+      
+                  </td>
+            </tr> 
+      </table>
+
+                
+                </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+ 
+</body>
+</html> 
